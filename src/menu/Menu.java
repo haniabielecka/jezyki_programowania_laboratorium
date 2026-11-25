@@ -52,7 +52,6 @@ public class Menu {
         lab3.addSubItem(new MenuItem("Zadanie 3", () -> openWindow(laboratorium3.zadanie3.Zadanie3::new)));
         lab3.addSubItem(new MenuItem("Zadanie 4", () -> openWindow(laboratorium3.zadanie4.Zadanie4::new)));
         lab3.addSubItem(new MenuItem("Zadanie 5", () -> openWindow(laboratorium3.zadanie5.Zadanie5::new)));
-        lab3.addSubItem(new MenuItem("Zadanie 6", () -> openWindow(laboratorium3.zadanie6.Zadanie6::new)));
     }
 
     private void openWindow(Supplier<JFrame> window) {
